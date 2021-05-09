@@ -1,0 +1,9 @@
+dependencies:
+  - name: shinyNVD3
+    version: 1.8.6
+    src: "htmlwidgets/lib/nvd3-1.8.6"
+    script:
+    - build/d3.min.js
+    - build/nv.d3.js
+    stylesheet:
+    - build/nv.d3.css
