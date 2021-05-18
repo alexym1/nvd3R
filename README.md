@@ -15,8 +15,15 @@ devtools::install_github("alexym1/nvd3R")
 
 ```{r}
 library(nvd3R)
-library(shiny)
-nvd3Demo()
+
+mtcars %>%
+nvd3Plot(
+x = "cyl",
+y = "mpg",
+type = "boxplot",
+xlab = "Test1",
+ylab = "Test2"
+)
 ```
 
 ## Ressources
