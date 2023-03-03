@@ -1,11 +1,7 @@
-#' List of available charts in nvd3R
-#'   
-#' @examples
-#' library(nvd3R)
-#' available_charts()
+#' List of available charts
 #'
 #' @export
-available_charts <- function () {
+available_nvd3_charts <- function () {
   list1 <- c("barplot", "boxplot", "piechart", "donutchart")
   list2 <- c("multibarplotH", "multibarplot", "scatterplot")
   df.list <- list(list1, list2)

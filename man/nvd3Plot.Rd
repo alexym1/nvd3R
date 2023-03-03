@@ -31,15 +31,9 @@ Main function to make new NVD3 chart
 \examples{
 library(nvd3R)
 
-### BOXPLOT
+### Boxplot
 mtcars \%>\%
-nvd3Plot(
-x = "cyl",
-y = "mpg",
-type = "boxplot",
-xlab = "Test1",
-ylab = "Test2"
-)
+ nvd3Plot(x = "cyl", y = "mpg", type = "boxplot", xlab = "Test1", ylab = "Test2")
 
 
 ### Multibarplot
@@ -50,12 +44,7 @@ label = c("A", "A", "A", "A", "B", "B", "B", "B")
 )
 
 newdata02 \%>\%
-nvd3Plot(
-x = "var1",
-y = "var2",
-col = "label",
-type = "multibarplot"
-)
+nvd3Plot(x = "var1", y = "var2", col = "label", type = "multibarplot")
 
 
 }

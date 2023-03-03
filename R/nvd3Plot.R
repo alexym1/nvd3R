@@ -11,19 +11,14 @@
 #' @import htmlwidgets
 #' @import jsonlite
 #' @import datasets
+#' @importFrom grDevices boxplot.stats
 #'
 #' @examples
 #' library(nvd3R)
 #'
-#' ### BOXPLOT
+#' ### Boxplot
 #' mtcars %>%
-#' nvd3Plot(
-#' x = "cyl",
-#' y = "mpg",
-#' type = "boxplot",
-#' xlab = "Test1",
-#' ylab = "Test2"
-#' )
+#'  nvd3Plot(x = "cyl", y = "mpg", type = "boxplot", xlab = "Test1", ylab = "Test2")
 #'
 #'
 #' ### Multibarplot
@@ -34,12 +29,7 @@
 #' )
 #'
 #'newdata02 %>%
-#'nvd3Plot(
-#'x = "var1",
-#'y = "var2",
-#'col = "label",
-#'type = "multibarplot"
-#')
+#' nvd3Plot(x = "var1", y = "var2", col = "label", type = "multibarplot")
 #'
 #'
 #' @export

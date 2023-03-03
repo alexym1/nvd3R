@@ -1,15 +1,15 @@
 Package: nvd3R
 Title: Embedding `NVD3` javascript Library in R
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: 
     person(given = "Alex",
            family = "Yahiaoui Martinez",
            role = c("aut", "cre"),
            email = "yahiaoui-martinez.alex@outlook.com")
 Description: Re-usable charts and chart components based on d3.js in R.
-License: MIT
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 Imports: htmlwidgets, jsonlite, magrittr, shiny
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.1
